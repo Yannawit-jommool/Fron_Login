@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EquipEase - Borrowing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+        <h2>EquipEase</h2>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="items.html">🔍 Items List</a></li>
+        <li class="active"><a href="borrowing.html">🔒 My Borrowing</a></li>
+        <li><a href="history.html">📄 History</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h1>My Borrowing</h1>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Borrowing Date</th>
+              <th>Due Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>XXXXX</td>
+              <td>MM/DD/YYYY</td>
+              <td><span class="status available">Return Confirm</span></td>
+            </tr>
+            <tr>
+              <td>XXXXX</td>
+              <td>MM/DD/YYYY</td>
+              <td><span class="status borrowed">Overdue</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
